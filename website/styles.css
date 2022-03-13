@@ -67,8 +67,25 @@ height: 400px;
 background-color: azure;
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: flex-start;
 align-items: center;
+}
+
+.section-one h2{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 550px;
+    text-align: center;
+    line-height: 5vmin;
+    font-size: 28px;
+    font-weight: 100;
+    color: rgb(125, 128, 128);
+}
+
+.section-one span{
+    font-size: 45px;
+    margin: 25px;
+    color: rgb(208, 212, 212);
 }
 
 .section-two{
